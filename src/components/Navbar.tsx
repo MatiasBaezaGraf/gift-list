@@ -27,7 +27,7 @@ export const Navbar = () => {
 
 	return (
 		<div className="sticky fr center top-0 w-full h-[70px] bg-gradient-to-r from-blue-600 to-cyan-500 shadow z-20">
-			<div className="fr justify-between items-center w-full tablet:w-[1000px]">
+			<div className="fr justify-between items-center w-full tablet:w-[1000px]  px-[10px]">
 				<Subtitle size="md" color="#fff" bold>
 					Mati y Ro
 				</Subtitle>
