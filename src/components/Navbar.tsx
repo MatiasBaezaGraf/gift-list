@@ -18,8 +18,8 @@ export const Navbar = () => {
 	const transferPopUp = () => {
 		Swal.fire({
 			title: "¿Querés regalarnos plata?",
-			text: "Si querés regalarnos plata, podés hacerlo cuando quieras, a través de transferencia al CVU/alias de abajo. Si tenes efectivo no hay problema, habla con nosotros y arreglamos.",
-			footer: "alias: matibaezagraf | CVU: 0000003100014143464836",
+			text: "Si querés regalarnos plata, podés hacerlo cuando quieras, a través de transferencia al CVU/alias de abajo. Si tenes efectivo o crypto no hay problema, habla con nosotros y arreglamos.",
+			footer: "alias: rociobuzin.bs | CBU: 0720292888000001371868",
 			icon: "info",
 			confirmButtonColor: "#3085d6",
 		});
