@@ -35,8 +35,6 @@ export const ProductCard = ({
 					.from("product_gift")
 					.insert([{ product_id: product.id, full_name: name }]);
 
-				console.log(data, error);
-
 				if (error) {
 					Swal.fire("Error", "No se pudo reservar el regalo", "error");
 				} else {
