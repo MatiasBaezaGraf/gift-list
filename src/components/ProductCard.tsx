@@ -87,9 +87,11 @@ export const ProductCard = ({
 					)}
 				</div>
 			</div>
-			<Button className="justify-self-end" onClick={giftProduct}>
-				Yo lo regalo!
-			</Button>
+			{product.product_gift.length == 0 && (
+				<Button className="justify-self-end" onClick={giftProduct}>
+					Yo lo regalo!
+				</Button>
+			)}
 		</div>
 	);
 };
